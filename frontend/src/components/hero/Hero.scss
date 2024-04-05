@@ -1,0 +1,15 @@
+@import "../../shared/assets/colors.scss";
+
+.hero_container {
+  padding: 1rem 3rem;
+  background-color: $primaryColor;
+  color: white;
+
+  h1 {
+    margin: 0.5rem 0;
+  }
+
+  p {
+    margin: 0rem;
+  }
+}

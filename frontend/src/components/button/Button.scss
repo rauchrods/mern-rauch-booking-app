@@ -1,0 +1,20 @@
+@import '../../shared/assets/colors.scss';
+
+
+.myButton{
+    background-color: white;
+    color: $primaryColor;
+    border: none;
+    padding:0.4rem 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover{
+      color: rgb(39, 148, 238);
+    }
+}
+
+.myButton.sign-in-button{
+  background-color: $primaryColor;
+  color: white;
+}

@@ -1,0 +1,45 @@
+@import "../../shared/assets/colors.scss";
+
+.sign_up_page {
+  padding: 2rem 2.5rem;
+  // margin: 1rem 0rem;
+
+  .sign-in-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 1.5rem;
+
+    input {
+      padding: 0.25rem 0.6rem;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .err-msg {
+      color: red;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .fn-ln-container {
+      flex-direction: row;
+      justify-content: space-between;
+      > div {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+
+    .redirect-link {
+      a {
+        color: $primaryColor;
+      }
+    }
+  }
+}

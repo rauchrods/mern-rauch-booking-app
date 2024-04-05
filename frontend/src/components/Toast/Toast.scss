@@ -1,0 +1,15 @@
+.toaster {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  color: white;
+  padding: 0.4rem 0.8rem;
+}
+
+.toast-success {
+  background-color: rgb(30, 143, 30);
+}
+
+.toast-error {
+  background-color: rgb(212, 53, 32);
+}

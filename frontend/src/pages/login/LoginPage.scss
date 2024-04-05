@@ -1,0 +1,36 @@
+@import "../../shared/assets/colors.scss";
+
+.login_in_page {
+    padding: 2rem 2.5rem;
+    margin: 2.5rem 0rem;
+  
+  
+    .log-in-form {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      row-gap: 1.5rem;
+  
+      input {
+        padding: 0.25rem 0.6rem;
+      }
+  
+      > div {
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .err-msg {
+        color: red;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      .redirect-link{
+        a{
+          color: $primaryColor;
+        }
+      }
+  
+    }
+  }
+  
